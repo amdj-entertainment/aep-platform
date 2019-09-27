@@ -1,0 +1,15 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import 'assets/css/components/navbar.css';
+@import 'assets/css/components/buttons.css';
+@import 'assets/css/components/forms.css';
+@import 'assets/css/components/datatable.css';
+@import 'assets/css/components/modal.css';
+
+@import "tailwindcss/utilities";
+
+#__nuxt, #__layout {
+  @apply h-screen;
+}

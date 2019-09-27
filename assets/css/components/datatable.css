@@ -1,0 +1,183 @@
+.datatable {
+    @apply my-6 rounded;
+}
+
+.datatable.dark {
+    @apply bg-gray-700;
+}
+
+.datatable.dark > .table-top {
+    @apply bg-gray-600 p-4 flex rounded-t border-b border-gray-700;
+}
+
+.datatable.dark > .table-top > .table-left {
+    @apply w-1/2 flex justify-start items-center;
+}
+
+.datatable.dark > .table-top > .table-right {
+    @apply w-1/2 flex justify-end items-center;
+}
+
+.datatable.dark > .table-top .table-search {
+    @apply flex rounded overflow-hidden;
+}
+
+.datatable.dark > .table-top .table-search > input[type="text"].table-control {
+    @apply block rounded-l py-3 px-4 tracking-wide bg-gray-400;
+}
+
+.datatable.dark > .table-top .table-search > input[type="text"].table-control:focus {
+    @apply rounded-l outline-none;
+}
+
+.datatable.dark > .table-top .table-search > button[role="search"].table-control {
+    @apply px-5 py-3 rounded-r;
+}
+
+.datatable.dark > table.table {
+    @apply text-left w-full border-collapse;
+}
+
+.datatable.dark > table.table > thead.table-head {
+    @apply bg-gray-600;
+}
+
+.datatable.dark > table.table > thead.table-head th.table-header {
+    @apply py-4 px-6 font-bold uppercase text-sm text-gray-900 select-none;
+}
+
+.datatable.dark > table.table > thead.table-head th.table-header > .header-item {
+    @apply flex cursor-pointer;
+}
+
+.datatable.dark > table.table > thead.table-head th.table-header > .header-item .header-sort {
+    @apply px-2;
+}
+
+.datatable.dark > table.table > thead.table-head th.table-header > .header-checkbox {
+    @apply select-none;
+}
+
+/* TABLE BODY ROW */
+.datatable.dark > table.table > tbody.table-body > tr.table-row {
+    @apply select-none text-gray-400 text-lg tracking-wide;
+}
+
+.datatable.dark > table.table > tbody.table-body > tr.table-row:hover {
+    @apply bg-gray-800;
+}
+
+.datatable.dark > table.table > tbody.table-body > tr.table-row.is-checked {
+    @apply bg-gray-800;
+}
+
+.datatable.dark > table.table > tbody.table-body > tr.table-row.is-checked:hover {
+    @apply bg-gray-900;
+}
+
+.datatable.dark > table.table > tbody.table-body > tr.table-row > .table-control {
+    @apply py-4 px-6;
+}
+
+.datatable.dark > .table-bottom {
+    @apply bg-gray-600 p-4 flex rounded-b;
+}
+
+.datatable.dark > .table-bottom > .table-left {
+    @apply w-1/2 flex justify-start items-center;
+}
+
+.datatable.dark > .table-bottom > .table-right {
+    @apply w-1/2 flex justify-end items-center;
+}
+
+/* LIGHT THEME DATA TABLE */
+
+.datatable.light {
+    @apply bg-gray-100;
+}
+.datatable.light > .table-top {
+    @apply bg-gray-300 p-4 flex rounded-t border-b border-gray-300;
+}
+
+.datatable.light > .table-top > .table-left {
+    @apply w-1/2 flex justify-start items-center;
+}
+
+.datatable.light > .table-top > .table-right {
+    @apply w-1/2 flex justify-end items-center;
+}
+
+.datatable.light > .table-top .table-search {
+    @apply flex rounded overflow-hidden;
+}
+
+.datatable.light > .table-top .table-search > input[type="text"].table-control {
+    @apply block rounded-l py-3 px-4 tracking-wide bg-gray-400;
+}
+
+.datatable.light > .table-top .table-search > input[type="text"].table-control:focus {
+    @apply rounded-l outline-none;
+}
+
+.datatable.light > .table-top .table-search > button[role="search"].table-control {
+    @apply px-5 py-3 rounded-r;
+}
+
+.datatable.light > table.table {
+    @apply text-left w-full border-collapse;
+}
+
+.datatable.light > table.table > thead.table-head {
+    @apply bg-gray-400;
+}
+
+.datatable.light > table.table > thead.table-head th.table-header {
+    @apply py-4 px-6 font-bold uppercase text-sm text-gray-900 select-none;
+}
+
+.datatable.light > table.table > thead.table-head th.table-header > .header-item {
+    @apply flex cursor-pointer;
+}
+
+.datatable.light > table.table > thead.table-head th.table-header > .header-item .header-sort {
+    @apply px-2;
+}
+
+.datatable.light > table.table > thead.table-head th.table-header > .header-checkbox {
+    @apply select-none;
+}
+
+/* TABLE BODY ROW */
+.datatable.light > table.table > tbody.table-body > tr.table-row {
+    @apply select-none text-gray-600 text-lg tracking-wide;
+}
+
+.datatable.light > table.table > tbody.table-body > tr.table-row:hover {
+    @apply bg-gray-200;
+}
+
+.datatable.light > table.table > tbody.table-body > tr.table-row.is-checked {
+    @apply bg-gray-200;
+}
+
+.datatable.light > table.table > tbody.table-body > tr.table-row.is-checked:hover {
+    @apply bg-gray-100;
+}
+
+.datatable.light > table.table > tbody.table-body > tr.table-row > .table-control {
+    @apply py-4 px-6;
+}
+
+.datatable.light > .table-bottom {
+    @apply bg-gray-400 p-4 flex rounded-b;
+}
+
+.datatable.light > .table-bottom > .table-left {
+    @apply w-1/2 flex justify-start items-center;
+}
+
+.datatable.light > .table-bottom > .table-right {
+    @apply w-1/2 flex justify-end items-center;
+}
+

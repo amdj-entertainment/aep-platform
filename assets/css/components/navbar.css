@@ -1,0 +1,44 @@
+
+/* NAVBAR */
+.navbar {
+    @apply flex items-center justify-between flex-wrap px-3;
+}
+
+/* NAVBAR COLOR VARIATION SETTINGS */
+.navbar.navbar-dark {
+    @apply bg-gray-900;
+}
+
+/* NAVBAR BRAND */
+.navbar > div.navbar-brand {
+    @apply flex items-center justify-center flex-shrink-0 text-red-500 px-3 py-6;
+}
+
+/* NAVBAR BRAND LINKS */
+.navbar a.navbar-brand-link {
+    @apply font-bold text-xl tracking-wide uppercase;
+}
+
+/* NAVBAR NAV */
+.navbar > div.navbar-nav {
+    @apply w-full block flex-grow tracking-wider p-4;
+}
+
+/* NAVBAR ITEMS */
+.navbar > div.navbar-nav > div.navbar-items {
+    @apply text-sm uppercase;
+}
+
+/* NAVBAR ITEMS LINK */
+.navbar > div.navbar-nav > div.navbar-items > a.navbar-link {
+    @apply font-bold text-red-500;
+}
+
+@screen lg {
+    .navbar > div.navbar-nav {
+        @apply flex items-center w-auto ml-2;
+    }
+    .navbar > div.navbar-nav > a.navbar-link {
+        @apply flex-grow text-sm uppercase;
+    }
+}

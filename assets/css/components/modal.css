@@ -1,0 +1,105 @@
+/* div.modal {
+  transition: opacity 0.25s ease;
+  @apply opacity-0 pointer-events-none fixed w-full h-full top-0 left-0 flex items-center justify-center;
+}
+div.modal > .modal-overlay {
+  @apply absolute w-full h-full bg-gray-900 opacity-50 cursor-pointer;
+}
+
+div.modal.open {
+  @apply opacity-100
+}
+
+div.modal.dark {
+
+}
+
+div.modal.dark > div.modal-container {
+  @apply bg-white w-11/12 mx-auto rounded shadow-lg z-50 overflow-y-auto;
+}
+
+div.modal.dark > div.modal-container > div.modal.content {
+  @apply py-4 text-left px-6;
+}
+
+div.modal.dark > div.modal-container > div.modal.title {
+  @apply flex justify-between items-center pb-3;
+}
+
+div.modal.dark > div.modal-container > div.modal.title > p {
+  @apply text-2xl font-bold;
+}
+
+div.modal.dark > div.modal-container > div.modal.title > div.modal-close {
+  @apply cursor-pointer z-50;
+}
+
+div.modal.dark > div.modal-container > div.modal.body {
+
+}
+
+div.modal.dark > div.modal-container > div.modal.footer {
+  @apply flex justify-end pt-2;
+}
+
+div.modal.light {
+
+}
+
+div.modal.light > div.modal-container {
+
+}
+
+div.modal.light > div.modal-container > div.modal.title {
+
+}
+
+div.modal.light > div.modal-container > div.modal.title > p {
+
+}
+
+div.modal.light > div.modal-container > div.modal.title > div.modal-close {
+
+}
+
+div.modal.light > div.modal-container > div.modal.body {
+
+}
+
+div.modal.light > div.modal-container > div.modal.footer {
+
+} */
+
+div.modal-backdrop {
+  @apply hidden;
+}
+
+div.modal-backdrop.open {
+  @apply fixed top-0 bottom-0 left-0 right-0 flex justify-center items-center;
+  background-color: rgba(0, 0, 0, 0.50);
+}
+
+div.modal {
+  @apply bg-gray-700 shadow-2xl overflow-x-auto flex flex-col rounded max-w-3xl;
+}
+
+header.modal-header,
+footer.modal-footer {
+  @apply p-5 flex;
+}
+
+header.modal-header {
+  @apply border-b-2 border-gray-800 border-solid justify-between;
+}
+
+header.modal-header > h1.header-text {
+  @apply text-2xl;
+}
+
+footer.modal-footer {
+  @apply border-t-2 border-gray-800 border-solid justify-between;
+}
+
+section.modal-body {
+  @apply relative px-4 py-5;
+}

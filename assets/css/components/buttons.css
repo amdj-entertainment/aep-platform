@@ -1,0 +1,58 @@
+.btn {
+    @apply inline-block align-baseline rounded text-sm text-blue-500 py-2 px-4 outline-none;
+}
+
+.btn:hover {
+    @apply text-blue-600;
+}
+
+.btn-primary {
+    @apply bg-red-500 text-gray-900 font-bold;
+}
+.btn-primary:hover {
+    @apply bg-red-600 text-gray-900 cursor-pointer;
+}
+.btn-primary:active {
+    @apply bg-red-500 text-gray-900 shadow-none;
+}
+
+.btn-secondary {
+    @apply bg-orange-700 text-gray-900 font-bold;
+}
+
+.btn-secondary:hover {
+    @apply bg-orange-700 text-gray-900 cursor-pointer;
+}
+
+.btn-secondary:active {
+    @apply bg-orange-400;
+}
+
+.btn-info {
+    @apply bg-blue-500 text-gray-900 font-bold;
+}
+
+.btn-info:hover {
+    @apply bg-blue-500 text-gray-900 cursor-pointer;
+}
+
+.btn-info:active {
+    @apply bg-blue-300;
+}
+
+.btn-success {
+    @apply bg-green-500 text-gray-900 font-bold;
+}
+
+.btn-success:hover {
+    @apply bg-green-500 text-gray-900 cursor-pointer;
+}
+
+.btn-success:active {
+    @apply bg-green-300;
+}
+
+.btn-link {
+    @apply font-semibold .tracking-wider;
+}
+

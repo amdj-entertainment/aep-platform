@@ -1,0 +1,39 @@
+form.form {
+    @apply px-8 pt-6 pb-8 mb-4;
+}
+
+/* form.primary {
+    @apply bg-gray-700;
+} */
+
+form.rounded {
+    @apply rounded;
+}
+
+form.shadow {
+    @apply shadow-md;
+}
+
+form.form > .form-title > h3 {
+    @apply block text-gray-500 text-2xl font-bold mb-4 uppercase;
+}
+
+form.form > .form-group {
+    @apply mb-4;
+}
+
+form.form > .form-group > .form-label {
+    @apply block text-gray-500 text-sm font-bold mb-2;
+}
+
+form.form > .form-group > .form-control {
+    @apply shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight;
+}
+
+form.form > .form-group > .form-control:focus {
+    @apply outline-none shadow-outline;
+}
+
+form.form > .form-actions {
+    @apply flex items-center justify-between;
+}
